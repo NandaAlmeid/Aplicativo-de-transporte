@@ -1,3 +1,4 @@
-public class Endereco_Partida extends Endereco {
+public class Endereco_Partida extends Endereco { 
+    String nome;
     
 }
