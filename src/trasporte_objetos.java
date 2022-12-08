@@ -2,6 +2,14 @@ public class trasporte_objetos {
     int qtd_itens;
     Double peso_total;
 
+    public trasporte_objetos(int qtd_itens, Double peso_total) {
+        this.qtd_itens = qtd_itens;
+        this.peso_total = peso_total;
+    }
+
+    public trasporte_objetos() {
+    }
+
     public int getQtd_itens() {
         return this.qtd_itens;
     }

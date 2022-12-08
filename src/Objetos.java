@@ -1,8 +1,10 @@
 public class Objetos {
     String nome;
     Double peso;
-    String foto;
     int cod_de_barras;
+
+    public Objetos() {
+    }
 
     public String getNome() {
         return this.nome;
@@ -20,12 +22,10 @@ public class Objetos {
         this.peso = peso;
     }
 
-    public String getFoto() {
-        return this.foto;
-    }
-
-    public void setFoto(String foto) {
-        this.foto = foto;
+    public Objetos(String nome, Double peso, int cod_de_barras) {
+        this.nome = nome;
+        this.peso = peso;
+        this.cod_de_barras = cod_de_barras;
     }
 
     public int getCod_de_barras() {
@@ -35,5 +35,7 @@ public class Objetos {
     public void setCod_de_barras(int cod_de_barras) {
         this.cod_de_barras = cod_de_barras;
     }
+
+    
 
 }
